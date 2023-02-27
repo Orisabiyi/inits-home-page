@@ -7,9 +7,9 @@
 @import "base/typography";
 @import "base/utilities";
 
+@import "components/container";
+
 @import "layout/grid";
+@import "layout/header";
 
 @import "page/home";
-
-
-$gutter-horizontal: 6rem;

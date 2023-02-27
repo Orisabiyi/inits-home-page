@@ -1,0 +1,45 @@
+.header {
+    position: relative;
+    height: 100vh;
+    background-position: top;
+    background-size: cover;
+    background-image: linear-gradient(to right bottom, rgba($color-blue, 0.4), rgba($color-green, 0.4)), url(../img/home-img.jpg);
+    padding: 30rem 5rem;
+
+    &__text {
+        color: $color-white;
+    }
+
+    &__heading-text {
+        font-size: $heading-1;
+        text-transform: capitalize;
+    }
+
+    &__paragraph {
+        font-size: $paragraph-font-size-2;
+        width: 40%;
+    }
+
+    &__link {
+
+        &:link,
+        &:visited {
+            display: inline-block;
+            font-size: $default-font-size;
+            text-decoration: none;
+            color: $color-white;
+        }
+    }
+
+    &__arrow {
+        display: inline-block;
+        margin-right: 1rem;
+        padding-top: 1rem;
+        font-size: 3rem;
+        vertical-align: middle;
+        background-image: linear-gradient(to right bottom, $color-green, $color-blue);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+}
